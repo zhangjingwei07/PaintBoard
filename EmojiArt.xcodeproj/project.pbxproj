@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2083C842105C9880021DC77 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C832105C9880021DC77 /* EmojiCollectionViewCell.swift */; };
+		A25941C921008F7500C5B6C5 /* EmojiArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25941C821008F7500C5B6C5 /* EmojiArtDocumentTableViewController.swift */; };
 		A2D6798B21005287002460C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6798A21005287002460C3 /* AppDelegate.swift */; };
-		A2D6798D21005288002460C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6798C21005288002460C3 /* ViewController.swift */; };
 		A2D6799021005288002460C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D6798E21005288002460C3 /* Main.storyboard */; };
 		A2D6799221005289002460C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D6799121005289002460C3 /* Assets.xcassets */; };
 		A2D6799521005289002460C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D6799321005289002460C3 /* LaunchScreen.storyboard */; };
+		A2D6799E21005511002460C3 /* EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6799D21005511002460C3 /* EmojiArtViewController.swift */; };
+		A2D679A0210055B4002460C3 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6799F210055B4002460C3 /* EmojiArtView.swift */; };
+		A2D679A221005F5D002460C3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D679A121005F5D002460C3 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2083C832105C9880021DC77 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		A25941C821008F7500C5B6C5 /* EmojiArtDocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentTableViewController.swift; sourceTree = "<group>"; };
 		A2D6798721005287002460C3 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D6798A21005287002460C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2D6798C21005288002460C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2D6798F21005288002460C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2D6799121005289002460C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D6799421005289002460C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2D6799621005289002460C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D6799D21005511002460C3 /* EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtViewController.swift; sourceTree = "<group>"; };
+		A2D6799F210055B4002460C3 /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
+		A2D679A121005F5D002460C3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		A2D6798921005287002460C3 /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
-				A2D6798A21005287002460C3 /* AppDelegate.swift */,
-				A2D6798C21005288002460C3 /* ViewController.swift */,
+				A2D6799C2100548F002460C3 /* Supporting Files */,
 				A2D6798E21005288002460C3 /* Main.storyboard */,
-				A2D6799121005289002460C3 /* Assets.xcassets */,
-				A2D6799321005289002460C3 /* LaunchScreen.storyboard */,
+				A2083C832105C9880021DC77 /* EmojiCollectionViewCell.swift */,
+				A25941C821008F7500C5B6C5 /* EmojiArtDocumentTableViewController.swift */,
+				A2D679A121005F5D002460C3 /* Utilities.swift */,
+				A2D6799D21005511002460C3 /* EmojiArtViewController.swift */,
+				A2D6799F210055B4002460C3 /* EmojiArtView.swift */,
 				A2D6799621005289002460C3 /* Info.plist */,
 			);
 			path = EmojiArt;
+			sourceTree = "<group>";
+		};
+		A2D6799C2100548F002460C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D6798A21005287002460C3 /* AppDelegate.swift */,
+				A2D6799121005289002460C3 /* Assets.xcassets */,
+				A2D6799321005289002460C3 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D6798D21005288002460C3 /* ViewController.swift in Sources */,
 				A2D6798B21005287002460C3 /* AppDelegate.swift in Sources */,
+				A2083C842105C9880021DC77 /* EmojiCollectionViewCell.swift in Sources */,
+				A2D6799E21005511002460C3 /* EmojiArtViewController.swift in Sources */,
+				A2D679A221005F5D002460C3 /* Utilities.swift in Sources */,
+				A25941C921008F7500C5B6C5 /* EmojiArtDocumentTableViewController.swift in Sources */,
+				A2D679A0210055B4002460C3 /* EmojiArtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = utoronto.daniel.zhang.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = utoronto.daniel.zhang.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
